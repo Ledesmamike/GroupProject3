@@ -2,18 +2,45 @@ body {
     background-color: #C2CFFF;
 }
 
-#heroBanner{
-    width: 1200px;
-    height: 600px;
-    margin: 0% 20% 0% 20%;
-    display:block;
-    min-height: 200px;
-    height: 70vh;
-}
-
 .image{
     display: block;
-    margin: auto;
-    padding: 20% 25% 25% 25%;
+    margin: auto auto auto auto;
+    padding-top: 150px;
     width: 50%;
 }
+
+.grid-container {
+    display: grid;
+    row-gap: 70px;
+    grid-template-columns: auto auto;
+    padding-top: 400px;
+    
+  }
+  
+  .grid-item1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    font-size: 30px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .grid-item1 img {
+    width: 80%;
+    object-fit: cover;
+  }
+
+  .grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 400px;
+    padding-bottom: 800px;
+    font-size: 30px;
+    text-align: center;
+  }
