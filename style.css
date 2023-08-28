@@ -18,10 +18,8 @@ body {
   }
   
   .grid-item1 {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding-left: 150px;
-    padding-right: 150px;
+    padding-right: 20px;
     padding-top: 100px;
     padding-bottom: 200px;
     font-size: 30px;
@@ -35,12 +33,11 @@ body {
   }
 
   .grid-item2 {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding-left: 150px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding-left: 20px;
     padding-right: 150px;
-    padding-top: 400px;
+    padding-top: 800px;
     padding-bottom: 800px;
-    font-size: 30px;
+    font-size: 72px;
     text-align: center;
   }
