@@ -9,7 +9,7 @@ body {
     width: 50%;
 }
 
-.grid-container {
+.grid-container1 {
     display: grid;
     row-gap: 70px;
     grid-template-columns: auto auto;
