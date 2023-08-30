@@ -1,10 +1,9 @@
 @font-face {
   font-family: 'cherryBomb';
-  src: url(../GroupProject3/CherryBombOne-Regular.ttf);
+  src: url(../GroupProject3/CherryBombOne-Regular.ttf) format('truetype');
 }
 
 body {
-  font-family: "cherryBomb", sans-serif;
   font-size: 34px;
   background-color: #C2CFFF;
 }
@@ -47,11 +46,44 @@ body {
   }
 
   .grid-item2 {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: "cherryBomb", sans-serif;
     padding-left: 20px;
     padding-right: 150px;
     padding-top: 1020px;
     padding-bottom: 800px;
     font-size: 72px;
     text-align: center;
+  }
+
+  .grid-container2 {
+    display: grid;
+    row-gap: 70px;
+    grid-template-columns: auto auto;
+    padding-top: 150px;
+    
+  }
+  
+  .grid2-item1 {
+    font-family: "cherryBomb", sans-serif;
+    padding-left: 20px;
+    padding-right: 150px;
+    padding-top: 1020px;
+    padding-bottom: 800px;
+    font-size: 72px;
+    text-align: center;
+  }
+
+  .grid2-item1 img {
+    width: 80%;
+    object-fit:cover
+  }
+
+  .grid2-item2 {
+    font-family: "cherryBomb", sans-serif;
+    padding-left: 150px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    text-align: center;
+    overflow: hidden;
   }
