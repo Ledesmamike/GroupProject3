@@ -9,11 +9,18 @@ body {
     width: 50%;
 }
 
+.playgif{
+  display: block;
+  margin: auto auto auto auto;
+  padding-top: 510px;
+  width: 10%;
+}
+
 .grid-container1 {
     display: grid;
     row-gap: 70px;
     grid-template-columns: auto auto;
-    padding-top: 400px;
+    padding-top: 150px;
     
   }
   
