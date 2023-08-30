@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'cherryBomb';
+  src: url(../GroupProject3/CherryBombOne-Regular.ttf);
+}
+
 body {
-    background-color: #C2CFFF;
+  font-family: "cherryBomb", sans-serif;
+  font-size: 34px;
+  background-color: #C2CFFF;
 }
 
 .image{
