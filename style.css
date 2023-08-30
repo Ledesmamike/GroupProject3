@@ -42,7 +42,7 @@ body {
 
   .grid-item1 img {
     width: 80%;
-    object-fit: cover;
+    object-fit: fill;
   }
 
   .grid-item2 {
@@ -51,16 +51,17 @@ body {
     padding-right: 150px;
     padding-top: 1020px;
     padding-bottom: 800px;
-    font-size: 72px;
+    font-size: 124px;
     text-align: center;
   }
 
   .grid-container2 {
+    background-color: aqua;
     display: grid;
     row-gap: 70px;
     grid-template-columns: auto auto;
     padding-top: 150px;
-    
+  
   }
   
   .grid2-item1 {
@@ -69,21 +70,21 @@ body {
     padding-right: 150px;
     padding-top: 1020px;
     padding-bottom: 800px;
-    font-size: 72px;
+    font-size: 124px;
     text-align: center;
   }
 
   .grid2-item1 img {
-    width: 80%;
-    object-fit:cover
+    width: 120%;
+    object-fit:fill;
   }
 
   .grid2-item2 {
     font-family: "cherryBomb", sans-serif;
     padding-left: 150px;
     padding-right: 20px;
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding-top: 800px;
+    padding-bottom: 1020px;
     text-align: center;
     overflow: hidden;
   }
