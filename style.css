@@ -3,6 +3,11 @@
   src: url(../GroupProject3/CherryBombOne-Regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'MPLUSRounded';
+  src: url(../GroupProject3/MPLUSRounded1c-Medium.ttf) format('truetype');
+}
+
 body {
   font-size: 34px;
   background-color: #C2CFFF;
@@ -25,12 +30,13 @@ body {
 .grid-container1 {
     display: grid;
     row-gap: 70px;
-    grid-template-columns: auto auto;
+    grid-template-columns: 2fr 2fr;
     padding-top: 150px;
     
   }
   
   .grid-item1 {
+    width: 80%;
     padding-left: 150px;
     padding-right: 20px;
     padding-top: 100px;
@@ -42,49 +48,69 @@ body {
 
   .grid-item1 img {
     width: 80%;
-    object-fit: fill;
+    object-fit: cover;
   }
 
   .grid-item2 {
-    font-family: "cherryBomb", sans-serif;
-    padding-left: 20px;
-    padding-right: 150px;
-    padding-top: 1020px;
-    padding-bottom: 800px;
-    font-size: 124px;
+    font-family: "MPLUSRounded", sans-serif;
+    margin: auto auto auto auto;
+    font-size: 95px;
     text-align: center;
   }
 
   .grid-container2 {
-    background-color: aqua;
     display: grid;
     row-gap: 70px;
-    grid-template-columns: auto auto;
-    padding-top: 150px;
+    grid-template-columns: 2fr 2fr;
+    padding-top: 10px;
   
   }
   
   .grid2-item1 {
-    font-family: "cherryBomb", sans-serif;
-    padding-left: 20px;
-    padding-right: 150px;
-    padding-top: 1020px;
-    padding-bottom: 800px;
-    font-size: 124px;
+    font-family: "MPLUSRounded", sans-serif;
+    margin: auto auto auto auto;
+    font-size: 95px;
     text-align: center;
   }
 
   .grid2-item1 img {
-    width: 120%;
-    object-fit:fill;
+    height: 1000px;
+    object-fit: cover;
   }
 
   .grid2-item2 {
-    font-family: "cherryBomb", sans-serif;
+    font-family: "MPLUSRounded", sans-serif;
     padding-left: 150px;
     padding-right: 20px;
     padding-top: 800px;
     padding-bottom: 1020px;
     text-align: center;
     overflow: hidden;
+  }
+
+  h1 {
+    font-family: "cherryBomb", sans-serif;
+    color: #F5F5F5;
+    font-size: 120px;
+    padding-bottom: 200px;
+    text-align: center;
+  }
+
+  .grid-container3 {
+    display: grid;
+    row-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+  
+  }
+  
+  .grid3-item1 {
+    margin: auto;
+    font-size: 95px;
+    object-fit: cover;
+  }
+
+  .grid3-item2 {
+    margin: auto;
+    font-size: 95px;
+    object-fit: cover;
   }
