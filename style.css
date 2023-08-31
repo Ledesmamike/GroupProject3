@@ -88,7 +88,7 @@ body {
     overflow: hidden;
   }
 
-  h1 {
+  .testimonials {
     font-family: "cherryBomb", sans-serif;
     color: #F5F5F5;
     font-size: 120px;
@@ -97,19 +97,73 @@ body {
   }
 
   .grid-container3 {
+    font-family: "MPLUSRounded", sans-serif;
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 400px;
+  }
+  
+  .grid3-item1 {
+    margin: auto;
+    padding-left: 150px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 95px;
+    object-fit: cover;
+  }
+
+  .grid3-item2 {
+    margin: auto;
+    padding-left: 150px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 95px;
+    object-fit: cover;
+  }
+
+  .grid3-item3 {
+    margin: auto;
+    padding-left: 150px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 95px;
+    object-fit: cover;
+  }
+
+  .grid3-item4 {
+    margin: auto;
+    padding-left: 150px;
+    padding-right: 20px;
+    padding-top: 800px;
+    padding-bottom: 1020px;
+    text-align: center;
+    font-size: 95px;
+    object-fit: cover;
+  }
+
+  .download {
+    font-family: "cherryBomb", sans-serif;
+    color: #F5F5F5;
+    font-size: 120px;
+    padding-bottom: 200px;
+    text-align: center;
+  }
+
+  .grid-container4 {
     display: grid;
     row-gap: 5px;
     grid-template-columns: 1fr 1fr;
   
   }
   
-  .grid3-item1 {
+  .grid4-item1 {
     margin: auto;
     font-size: 95px;
     object-fit: cover;
   }
 
-  .grid3-item2 {
+  .grid4-item2 {
     margin: auto;
     font-size: 95px;
     object-fit: cover;
